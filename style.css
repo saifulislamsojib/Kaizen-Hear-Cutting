@@ -1,0 +1,59 @@
+body {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+
+.bottom-banner {
+  background-image: url(/images/wp7204351.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 700px;
+  border-radius: 10px;
+}
+
+.bottom-banner__inner {
+  min-height: 700px;
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: #0000007f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+::-webkit-scrollbar-thumb {
+  background: #b5adad;
+  border-radius: 8px;
+}
+
+.swiper {
+  padding: 22px !important;
+}
+
+.swiper .swiper-button-prev {
+  left: 0px;
+}
+.swiper .swiper-button-next {
+  right: 0px;
+}
+
+.swiper .swiper-button-prev,
+.swiper .swiper-button-next {
+  width: 32px;
+  height: 32px;
+  color: #ffffff;
+  background-color: #363636;
+  border-radius: 50%;
+}
+
+.swiper .swiper-button-prev::after,
+.swiper .swiper-button-next::after {
+  font-size: 20px;
+  margin-top: 2px;
+}
